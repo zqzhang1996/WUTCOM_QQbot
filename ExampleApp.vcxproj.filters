@@ -18,7 +18,7 @@
     <ClInclude Include="inculde\CQEVE.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="WUTCOM_QQbot\APPINFO.h">
+    <ClInclude Include="APPINFO.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -26,16 +26,16 @@
     <None Include="me.cqp.zqzhang1996.WUTCOM.json" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="WUTCOM_QQbot\appmain.cpp">
+    <ClCompile Include="appmain.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="WUTCOM_QQbot\main.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="WUTCOM_QQbot\repeater.cpp">
+    <ClCompile Include="repeater.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="WUTCOM_QQbot\yingKill.cpp">
+    <ClCompile Include="yingKill.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

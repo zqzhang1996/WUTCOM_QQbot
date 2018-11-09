@@ -71,17 +71,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="APPINFO.h" />
     <ClInclude Include="inculde\CQEVE.h" />
-    <ClInclude Include="WUTCOM_QQbot\APPINFO.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="me.cqp.zqzhang1996.WUTCOM.json" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="WUTCOM_QQbot\appmain.cpp" />
-    <ClCompile Include="WUTCOM_QQbot\main.cpp" />
-    <ClCompile Include="WUTCOM_QQbot\repeater.cpp" />
-    <ClCompile Include="WUTCOM_QQbot\yingKill.cpp" />
+    <ClCompile Include="appmain.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="repeater.cpp" />
+    <ClCompile Include="yingKill.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
