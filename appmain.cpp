@@ -4,11 +4,12 @@
 #include "APPINFO.h"
 
 #include <string>
+
 using namespace std;
 using namespace CQ;
 
 //请加上static,表示这个logger只有本cpp有效
-static Logger logger("酷Q样例应用");
+static Logger logger("WUT计协机器人");
 
 EVE_Enable(Enable)
 {
