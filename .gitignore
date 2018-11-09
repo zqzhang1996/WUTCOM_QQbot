@@ -5,3 +5,10 @@ inculde/
 lib/
 src/
 .gitattributes
+ExampleApp.sln
+ExampleApp.vcxproj
+ExampleApp.vcxproj.filters
+ExampleApp.vcxproj.user
+复制json.props
+请在此指定酷Q目录.props
+项目配置.props
