@@ -17,6 +17,10 @@ struct MessageDict
 };
 
 EVE_GroupMsg_EX(Repeater) {
+	if (eve.fromQQ == 1000000) {
+		return;
+	}
+
 	auto msg = eve.sendMsg();
 	static vector<MessageDict> messageDict;
 
