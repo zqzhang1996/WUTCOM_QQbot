@@ -1,6 +1,4 @@
 #include <CQEVE_GroupMsg.h>
-#include <CQcode.h>
-#include <CQAPI.h>
 #include <CQAPI_EX.h>
 
 #include <string>
@@ -17,6 +15,9 @@ struct MessageDict
 };
 
 EVE_GroupMsg_EX(Repeater) {
+	if (eve.fromQQ == getLoginQQ()) {
+		return;
+	}
 	if (eve.fromQQ == 1000000) {
 		return;
 	}
