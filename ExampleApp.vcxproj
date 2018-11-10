@@ -81,6 +81,7 @@
     <ClCompile Include="appmain.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="repeater.cpp" />
+    <ClCompile Include="russianRoulette.cpp" />
     <ClCompile Include="yingKill.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -39,6 +39,13 @@
       "priority": 30000,
       "id": 4
     },
+    {
+      "name": "俄罗斯轮盘",
+      "function": "RussianRoulette",
+      "type": 2,
+      "priority": 30000,
+      "id": 5
+    }
     //{
     //  "name": "示例-修改消息",
     //  "function": "ChangMsg",
@@ -53,13 +60,6 @@
     //  "priority": 30000,
     //  "id": 7
     //}
-    {
-      "name": "示例-发送一条消息",
-      "function": "SendMsg",
-      "type": 21,
-      "priority": 30000,
-      "id": 5
-    }
   ],
   "menu": [
     // 设置菜单（发布前请删除无用菜单，如果无需设置菜单请全部删除）
