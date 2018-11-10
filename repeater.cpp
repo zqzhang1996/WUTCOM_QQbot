@@ -15,6 +15,7 @@ struct MessageDict
 };
 
 EVE_GroupMsg_EX(Repeater) {
+	return;
 	if (eve.fromQQ == getLoginQQ() || eve.fromQQ == 1000000) {
 		return;
 	}
