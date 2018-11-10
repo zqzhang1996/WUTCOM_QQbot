@@ -13,7 +13,7 @@ void unBan(int group, int qq, int time) {
 }
 
 EVE_GroupMsg_EX(YingKill) {
-	if (eve.fromQQ == getLoginQQ()) {
+	if (eve.fromQQ == getLoginQQ() || eve.fromQQ == 1000000) {
 		return;
 	}
 	auto message = eve.message;
