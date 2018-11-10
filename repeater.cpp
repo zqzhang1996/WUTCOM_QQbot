@@ -9,7 +9,7 @@ using namespace CQ;
 
 struct MessageDict
 {
-	int fromGroup = 0;
+	long long fromGroup = 0;
 	vector<string> messageDict;
 	vector<string> repeatedMessageDict;
 };
